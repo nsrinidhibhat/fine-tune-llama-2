@@ -1,0 +1,9 @@
+datasets
+peft
+trl
+tiktoken
+accelerate
+einops
+bitsandbytes
+huggingface_hub
+python-dotenv
