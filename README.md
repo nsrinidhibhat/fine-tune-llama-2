@@ -60,7 +60,17 @@ data = pd.read_excel("your_dataset.xlsx")
 hf_dataset = Dataset.from_pandas(data)
 
 ```
-
 Happy fine-tuning!
 
+---
+## Inference
 
+To perform inference using the fine-tuned Llama-2 model, follow these steps:
+
+1. Ensure you've successfully fine-tuned Llama-2 as explained in the [Fine-tuning Llama-2](#fine-tuning-llama-2) section.
+
+2. Run the inference script, `infer.py`, with the following command:
+
+   ```shell
+   !python infer.py
+   ```
